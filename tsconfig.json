@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16", // ✅ match ESM
+    "rootDir": "./TS",
+    "outDir": "./dist",
+    "removeComments": true,
+    "noEmitOnError": true,
+    "strict": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node16", // ✅ better for "type": "module"
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true, // ✅ enable old-style decorators
+    "emitDecoratorMetadata": true, // optional but useful
+    "useDefineForClassFields": false
+  },
+  "include": [
+    "TS/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
