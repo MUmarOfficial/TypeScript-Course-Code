@@ -38,6 +38,12 @@ Whether you're just starting or leveling up, this repo should give you real code
 
 ---
 
+## 🏫 Learning Source
+
+- https://www.youtube.com/watch?v=rRAVqEFnT1s
+
+---
+
 ## ✅ Prerequisites
 
 Before diving in, make sure you have:
